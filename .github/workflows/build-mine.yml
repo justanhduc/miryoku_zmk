@@ -8,6 +8,6 @@ jobs:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
-      board: '["seeeduino_xiao"]'
+      board: '["xiao_ble"]'
       alphas: '["QWERTY"]'
       shield: '["totem_left","totem_right"]'
